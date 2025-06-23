@@ -209,17 +209,8 @@ telnet localhost 6000
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Raft Consensus Algorithm](https://raft.github.io/) by Diego Ongaro and John Ousterhout
 - [The Raft Paper](https://raft.github.io/raft.pdf) for algorithm specification
-- Go community for excellent concurrency primitives
 
-## 📧 Contact
-
-- GitHub: [@Mr-ut](https://github.com/Mr-ut)
-- Project Link: [https://github.com/Mr-ut/Distributed-Key-Value-DB](https://github.com/Mr-ut/Distributed-Key-Value-DB)
-
----
-
-⭐ **Star this repository if you found it helpful!**
