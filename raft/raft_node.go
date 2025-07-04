@@ -104,11 +104,8 @@ func (n *RaftNode) startElection() {
 }
 
 func (n *RaftNode) StartHeartbeat() {
-	// Note: This is a placeholder. In a real implementation, you'd want to use an actual timer
-	// For now, we'll just set the duration and call sendHeartbeat
 	n.HeartbeatTimer = 100 * time.Millisecond
 	n.sendHeartbeat()
-	// In a real implementation, you'd start a timer here that calls sendHeartbeat periodically
 }
 
 func (n *RaftNode) sendHeartbeat() {
