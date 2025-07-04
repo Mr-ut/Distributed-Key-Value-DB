@@ -27,11 +27,9 @@ func NewRaftNode(id string, peers map[string]string) *RaftNode {
 }
 
 func (n *RaftNode) ResetElectionTimer() {
-	// Note: This is a placeholder. In a real implementation, you'd want to use an actual timer
-	// For now, we'll just set the duration
+	
 	timeout := time.Duration(150+rand.Intn(150)) * time.Millisecond
 	n.ElectionTimer = timeout
-	// In a real implementation, you'd start a timer here that calls startElection after timeout
 }
 
 func (n *RaftNode) startElection() {
